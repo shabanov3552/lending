@@ -1,0 +1,352 @@
+// #region </МИКСИНЫ>
+
+@use "sass:math";
+@import "mixins";
+
+// #endregion
+
+// #region <ШРИФТЫ>
+
+//<Подключаем шрифты>=======================================================================================
+//&display=swap&subset=cyrillic-ext
+@import "fonts";
+//</Подключаем шрифты>=======================================================================================
+
+//<Иконочные шрифты>==========================================================================================
+//@import "icons";
+//</Иконочные шрифты>==========================================================================================
+
+//<Шрифт по умолчанию>==========================================================================================
+$fontFamily: "Montserrat";
+$fontSize: 16;
+//</Шрифт по умолчанию>==========================================================================================
+
+// #endregion
+
+// #region <ПЕРЕМЕННЫЕ>
+
+$minWidth: 320px;
+$maxWidth: 1920;
+$maxWidthContainer: 1440;
+$md1: $maxWidthContainer + 12;
+$md2: 1280;
+$md3: 998;
+$md4: 768;
+$md5: 480;
+$md6: 375;
+
+$mainColor: #fff;
+$menuLtMargin: 8.334%;
+// #endregion
+
+// #region <ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>
+
+@import "null";
+
+body {
+	color: $mainColor;
+
+	&._lock {
+		overflow: hidden !important;
+		height: 100% !important;
+	}
+}
+
+// #endregion
+.suggestions-suggestions {
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 5px;
+	width: 106%;
+	max-height: 300px;
+	overflow-y: auto;
+	left: -6px !important;
+}
+
+.suggestions-suggestions::-webkit-scrollbar {
+	width: 6px;
+	background-color: #f9f9fd;
+}
+
+.suggestions-suggestions::-webkit-scrollbar-thumb {
+	background-color: #797979;
+}
+
+.suggestions-suggestions::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+	background-color: #f9f9fd;
+}
+
+.suggestions-suggestions div,
+.suggestions-suggestions span {
+	width: 100%;
+	white-space: break-spaces;
+}
+
+.suggestions-suggestions a {
+	display: none !important;
+}
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	background-color: #515151;
+	transition: all 0.3s ease 0s;
+
+	&.done {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+.loader {
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #667d42;
+	animation: spin 2s linear infinite;
+}
+
+.loader:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #68a900;
+	animation: spin 3s linear infinite;
+}
+
+.loader:after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #a5ff14;
+	animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+// #region <ОБОЛОЧКА>
+
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background-color: #515151;
+	padding-left: $menuLtMargin;
+	padding-top: 7px;
+
+	&._loaded {}
+
+	&.menu-open {
+		.about {
+			z-index: -1;
+			position: relative;
+		}
+
+		.breadcrumbs {
+			z-index: -1;
+		}
+	}
+
+	@media (max-width: $md3+px) {
+		padding-left: 0;
+	}
+}
+
+// #endregion
+
+// #region <ОСНОВНАЯ СЕТКА>
+
+._container {
+	padding: 0px 9.091%;
+
+	@media (max-width: $md4+px) {
+		padding: 0px 20px;
+	}
+}
+
+// #endregion
+
+// #region <ПОДКЛЮЧЕНИЕ ФАЙЛОВ UI СТИЛЕЙ, ФОРМ И ГОТОВЫХ КЛАССОВ>
+
+@import "forms";
+@import "ui";
+@import "nice-select";
+@import "tippy";
+
+// #endregion
+
+// #region <ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
+
+//@import "datepicker";
+@import "lightgallery";
+@import "pagging";
+@import "breadcrumbs";
+@import "popup";
+@import "header";
+@import "footer";
+@import "home";
+// @import "catalog";
+// @import "product";
+// @import "cabinet";
+// @import "search-result";
+// @import "about";
+// @import "delivery";
+// @import "faq";
+// @import "service";
+// @import "articles";
+// @import "article";
+// @import "contacts";
+// @import "our-works";
+// @import "case";
+// @import "compare";
+// @import "order";
+// @import "main-slider";
+// @import "filters";
+@import 'lending';
+
+// #endregion
+
+// #region <ОСНОВНОЙ БЛОК>
+
+.page {
+	flex: 1 1 auto;
+	width: 100%;
+	height: 100%;
+
+	&.open-menu-lt {
+		padding-top: 144px;
+
+		@media (max-width: 1550px) {
+			padding-top: 187px;
+		}
+
+		@media (max-width: $md2+px) {
+			padding-top: 179px;
+		}
+
+		@media (max-width: 1180px) {
+			padding-top: 177px;
+		}
+
+		@media (max-width: $md3+px) {
+			padding-top: 0;
+		}
+	}
+}
+
+.err-page {
+	margin: 80px 0px 0px 0px;
+}
+
+.thanks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	// .thanks__image
+
+	&__image {
+		margin: 50px 0px 70px 0px;
+
+		@media (max-width: $md4+px) {
+			height: 150px;
+			margin: 30px 0px 30px 0px;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
+
+	// .thanks__text
+
+	&__text {
+		font-size: 24px;
+		line-height: 36px;
+		max-width: 800px;
+		text-align: center;
+
+		@media (max-width: $md4+px) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
+
+	&__text-span {
+		display: block;
+	}
+
+	// .thanks__text-link
+
+	&__text-link {
+		color: #fff;
+		display: inline-block;
+		cursor: pointer;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 0%;
+			height: 1px;
+			background-color: #fff;
+			transition: all 0.3s ease 0s;
+		}
+
+		&:hover {
+			color: #fff;
+
+			&::before {
+				width: 100%;
+			}
+		}
+	}
+
+	&__btn {
+		margin: 70px 0px 0px 0px;
+		padding: 0px 20px;
+
+		@media (max-width: $md4+px) {
+			margin: 30px 0px 0px 0px;
+		}
+	}
+}
+
+// #endregion

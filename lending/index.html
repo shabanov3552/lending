@@ -1,0 +1,3709 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- <div class="preloader">
+	<div class="loader"></div>
+</div> -->
+<header class="header first-screen">
+	<div class="header__wrapper">
+		<a href="index.html" class="header__logo">
+			<svg class="header__logo-svg">
+				<use xlink:href="img/svg/sprite.svg#logo_main"></use>
+			</svg>
+			<span class="header__logo-text">спецодежда</span>
+		</a>
+		<div class="header__menu">
+			<nav data-da=".menu-mobile,998,2" class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="about.html" class="menu__link">О компании</a></li>
+					<li class="menu__item">
+						<a href="our-works.html" class="menu__link">
+							<svg class="menu__green-star">
+								<use xlink:href="img/svg/sprite.svg#green_star"></use>
+							</svg>
+							<span>Наши работы</span>
+						</a>
+					</li>
+					<li class="menu__item menu__item_dropdown">
+						<span class="menu__link">Покупателям</span>
+						<svg class="menu__link-arrow">
+							<use xlink:href="img/svg/sprite.svg#arrow_dropdown"></use>
+						</svg>
+						<ul class="menu__dropdown">
+							<li data-da=".menu__list,998,2" class="menu__item"><a href="delivery.html" class="menu__link">Доставка и оплата</a></li>
+							<li data-da=".menu__list,998,3" class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+							<li data-da=".menu__list,998,4" class="menu__item"><a href="faq.html" class="menu__link">Вопросы и ответы</a></li>
+						</ul>
+					</li>
+					<li class="menu__item"><a href="articles.html" class="menu__link">Статьи</a></li>
+					<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+		<a href="tel:+78002019329" class="header__phone">
+			<svg class="header__phone-icon">
+				<use xlink:href="img/svg/sprite.svg#icon_phone_header"></use>
+			</svg>
+		</a>
+		<div data-da=".menu-mobile,998,1" class="header__col">
+			<a href="tel:+78002019329" class="header__tel">8 800 201 93 29</a>
+			<a href="#callback" class="header__pseudo-link js_popup-link">Заказать звонок</a>
+			<div class="header__city">
+				<img class="header__city-mark" src="img/svg/icon_mark_grey.svg" alt="">
+				<span class="header__city-text">Ваш город:</span>
+				<a href="" class="header__pseudo-link">Красноярск</a>
+			</div>
+		</div>
+		<div class="header__search">
+			<a href="#search" class="header__search-link js_popup-link">
+				<span class="header__search-text">Поиск по товарам</span>
+				<svg class="header__search-icon">
+					<use xlink:href=" img/svg/sprite.svg#menu_rt_search"></use>
+				</svg>
+			</a>
+		</div>
+		<button type="button" class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</div>
+	<div class="menu-rt">
+		<a href="#basket" class="menu-rt__link js_popup-link">
+			<span class="menu-rt__count">3</span>
+			<svg class="menu-rt__icon">
+				<use xlink:href="img/svg/sprite.svg#menu_rt_basket"></use>
+			</svg>
+		</a>
+		<a href="#cabinet" class="menu-rt__link js_popup-link">
+			<svg class="menu-rt__icon">
+				<use xlink:href="img/svg/sprite.svg#menu_rt_cabinet"></use>
+			</svg>
+		</a>
+		<a href="favorites.html" class="menu-rt__link">
+			<span class="menu-rt__count">3</span>
+			<svg class="menu-rt__icon">
+				<use xlink:href="img/svg/sprite.svg#menu_rt_favorites"></use>
+			</svg>
+		</a>
+		<a href="compare.html" class="menu-rt__link">
+			<span class="menu-rt__count">3</span>
+			<svg class="menu-rt__icon">
+				<use xlink:href="img/svg/sprite.svg#menu_rt_compare"></use>
+			</svg>
+		</a>
+	</div>
+	<div class="menu-lt" data-da=".menu-mobile,998,3">
+		<div class="menu-lt__body">
+			<div class="menu-lt__logo">
+				<img src="img/logo/catalog_logo.png" alt="">
+			</div>
+			<ul data-one-spoller data-spollers="998,max" class="menu-lt__list">
+				<li class="menu-lt__item">
+					<a data-spoller href="#clothes" class="menu-lt__category js_popup-link">
+						<img src="img/svg/catalog_specodejda.svg" alt="" class="menu-lt__cat-logo">
+						<span class="menu-lt__text">Спецодежда</span>
+					</a>
+					<div class="popup popup_clothes">
+						<div class="popup__content">
+							<div class="popup__body">
+								<div class="menu-lt__inner js_tabs">
+									<div class="menu-lt__subcategory">
+										<div class="menu-catalog">
+											<ul class="menu-catalog__list">
+												<li class="menu-catalog__item js_tabs-item _active">
+													<a href="" data-parent="1" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Аптечки</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Диэлектрика</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" data-parent="2" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита головы и лица</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита рожи</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита органов дыхания</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита органов слуха</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита от нападения</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" data-parent="3" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита рук</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Наколенники</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+
+											</ul>
+											<div class="menu-catalog__sub-menu sub-menu-catalog">
+												<button type="button" class="sub-menu-catalog__back _icon-back">
+													<svg class="sub-menu-catalog__svg">
+														<use xlink:href="img/svg/sprite.svg#icon-back"></use>
+													</svg>
+												</button>
+												<div class="sub-menu-catalog__container">
+													<div hidden data-submenu="1" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+														</ul>
+													</div>
+													<div hidden data-submenu="2" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+														</ul>
+													</div>
+													<div hidden data-submenu="3" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="popup__close"></div>
+									<div class="menu-lt__images">
+										<img data-src="img/pictures/human_2.png" alt="" class="menu-lt__img js_tabs-block _active">
+										<img data-src="img/svg/catalog_specodejda.svg" alt="" class="menu-lt__img js_tabs-block">
+										<img data-src="img/pictures/human_3.png" alt="" class="menu-lt__img js_tabs-block">
+										<img data-src="img/pictures/human_4.png" alt="" class="menu-lt__img js_tabs-block">
+										<img data-src="img/pictures/human_5.png" alt="" class="menu-lt__img js_tabs-block">
+										<img data-src="img/pictures/human_1.png" alt="" class="menu-lt__img js_tabs-block">
+										<img data-src="img/pictures/human_2.png" alt="" class="menu-lt__img js_tabs-block">
+										<img data-src="img/pictures/human_2.png" alt="" class="menu-lt__img js_tabs-block">
+										<img data-src="img/pictures/human_2.png" alt="" class="menu-lt__img js_tabs-block">
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="menu-lt__item">
+					<a data-spoller href="#shoes" class="menu-lt__category js_popup-link">
+						<img src="img/svg/catalog_specobuv.svg" alt="" class="menu-lt__cat-logo">
+						<span class="menu-lt__text">Спецобувь</span>
+					</a>
+					<div class="popup popup_shoes">
+						<div class="popup__content">
+							<div class="popup__body">
+								<div class="menu-lt__inner js_tabs">
+									<div class="menu-lt__subcategory">
+										<div class="menu-catalog">
+											<ul class="menu-catalog__list">
+												<li class="menu-catalog__item js_tabs-item _active">
+													<a href="" data-parent="1" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Аптечки</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" data-parent="2" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Диэлектрика</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+
+
+											</ul>
+											<div class="menu-catalog__sub-menu sub-menu-catalog">
+												<button type="button" class="sub-menu-catalog__back _icon-back">
+													<svg class="sub-menu-catalog__svg">
+														<use xlink:href="img/svg/sprite.svg#icon-back"></use>
+													</svg>
+												</button>
+												<div class="sub-menu-catalog__container">
+													<div hidden data-submenu="1" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">1 Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">2 Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">3 Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">4 Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">5 Каски </a></li>
+														</ul>
+													</div>
+													<div hidden data-submenu="2" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">1 Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">2 Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">3 Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">4 Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">5 Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">6 Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">7 Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">8 Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">9 Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">10 Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">11 Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">12 Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">13 Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">14 Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">15 Каски</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="popup__close"></div>
+									<div class="menu-lt__images">
+										<img src="img/svg/catalog_specobuv.svg" alt="" class="menu-lt__img js_tabs-block _active">
+										<img src="img/pictures/shoes.png" alt="" class="menu-lt__img js_tabs-block">
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="menu-lt__item">
+					<a data-spoller href="#siz" class="menu-lt__category js_popup-link">
+						<img src="img/svg/catalog_siz.svg" alt="" class="menu-lt__cat-logo">
+						<span class="menu-lt__text">СИЗ</span>
+					</a>
+					<div class="popup popup_siz">
+						<div class="popup__content">
+							<div class="popup__body">
+								<div class="menu-lt__inner js_tabs">
+									<div class="menu-lt__subcategory">
+										<div class="menu-catalog">
+											<ul class="menu-catalog__list">
+												<li class="menu-catalog__item js_tabs-item _active">
+													<a href="" data-parent="1" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Аптечки</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Диэлектрика</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" data-parent="2" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита головы и лица</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита рожи</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита органов дыхания</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита органов слуха</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита от нападения</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" data-parent="3" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита рук</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Наколенники</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+												<li class="menu-catalog__item js_tabs-item">
+													<a href="" class="menu-catalog__link">
+														<span class="menu-catalog__link-span">Защита органов слуха</span>
+														<svg class="menu-catalog__link-svg">
+															<use xlink:href="img/svg/sprite.svg#left-cat-arrow"></use>
+														</svg>
+													</a>
+												</li>
+
+											</ul>
+											<div class="menu-catalog__sub-menu sub-menu-catalog">
+												<button type="button" class="sub-menu-catalog__back _icon-back">
+													<svg class="sub-menu-catalog__svg">
+														<use xlink:href="img/svg/sprite.svg#icon-back"></use>
+													</svg>
+												</button>
+												<div class="sub-menu-catalog__container">
+													<div hidden data-submenu="1" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+														</ul>
+													</div>
+													<div hidden data-submenu="2" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+														</ul>
+													</div>
+													<div hidden data-submenu="3" class="sub-menu-catalog__block">
+														<ul class="sub-menu-catalog__list">
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Щитки</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Маски</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Каски </a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки закрытые</a></li>
+															<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Защитные очки открытые</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="popup__close"></div>
+									<div class="menu-lt__images">
+										<img src="img/svg/catalog_siz.svg" alt="" class="menu-lt__img js_tabs-block _active">
+										<img src="img/pictures/human_2.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_3.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_4.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_5.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_1.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_2.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_3.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_4.png" alt="" class="menu-lt__img js_tabs-block">
+										<img src="img/pictures/human_5.png" alt="" class="menu-lt__img js_tabs-block">
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="menu-lt__item">
+					<a href="" class="menu-lt__category">
+						<img src="img/svg/catalog_hoztovari.svg" alt="" class="menu-lt__cat-logo">
+						<span class="menu-lt__text">Хозтовары</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="menu-mobile">
+		<div class="menu-mobile__close">
+			<img src="img/svg/icon_close_big.svg" alt="">
+		</div>
+	</div>
+	<div class="first-screen__container _container">
+		<div class="first-screen__content">
+			<div class="first-screen__title">Компания «Бригадир» – крупнейший производитель спецодежды в Сибири</div>
+			<div class="first-screen__row">
+				<div class="first-screen__subtitle">Гибкий подход к каждому клиенту, пошив и готовые решения, без минимальной партии заказа и доставкой в любую точку страны</div>
+				<div class="first-screen__subtitle">Локализация производственных мощностей непосредственно на территории присутствия.</div>
+			</div>
+			<div class="first-screen__bottom">
+				<a href="#getConsultation" class="first-screen__green-btn green-btn js_popup-link">Получить консультацию</a>
+				<a href="#video" class="first-screen__grey-btn dark-grey-btn js_popup-link">
+					<img src="img/lend/play-btn.png" alt="">
+					<span>Смотреть видео о нас</span>
+				</a>
+			</div>
+		</div>
+		<div class="first-screen__video-bg">
+			<video src="videos/video-bg.mp4" autoplay loop muted preload="auto" pip="false"></video>
+		</div>
+	</div>
+</header>
+<main class="page">
+
+		<section class="catalog">
+			<div class="catalog__header _container">
+				<div class="catalog__title">В одном месте<br> и по доступным ценам </div>
+				<div class="catalog__subtitle">вы можете приобрести спецобувь,<br>спецодежду, СИЗы и сопутствующие товары.</div>
+			</div>
+			<div class="catalog__row">
+				<a href="" class="catalog__card">
+					<div class="catalog__card-name">Спецодежда</div>
+					<div class="catalog__image-ibg"><img src="img/lend/card-img_1.png" alt=""></div>
+				</a>
+				<a href="" class="catalog__card">
+					<div class="catalog__card-name">Спецобувь</div>
+					<div class="catalog__image-ibg"><img src="img/lend/card-img_2.png" alt=""></div>
+				</a>
+				<a href class="catalog__card">
+					<div class="catalog__card-name">Средства индивидуальной защиты (СИЗ)</div>
+					<div class="catalog__image-ibg"><img src="img/lend/card-img_3.png" alt=""></div>
+				</a>
+				<a href class="catalog__card">
+					<div class="catalog__card-name">Прочие товары</div>
+					<div class="catalog__image-ibg"><img src="img/lend/card-img_4.png" alt=""></div>
+				</a>
+			</div>
+		</section>
+
+		<section class="works _container">
+			<div class="works__header">
+				<div class="works__title">Примеры работ</div>
+				<div class="works__slider-nav">
+					<button type="button" class="swiper-button-prev">
+						<img src="img/lend/left-arrow.svg" alt="">
+						<img src="img/lend/left-arrow_grey.svg" alt="">
+					</button>
+					<div class="swiper-pagination works__slider-counter"></div>
+					<button type="button" class="swiper-button-next">
+						<img src="img/lend/right-arrow.svg" alt="">
+						<img src="img/lend/right-arrow_grey.svg" alt="">
+					</button>
+				</div>
+			</div>
+			<div class="works__slider-wrapper">
+				<!-- Оболочка слайдера -->
+				<div class="works__slider swiper-container">
+					<!-- Двигающееся часть слайдера -->
+					<div class="works__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_1.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_1.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_2.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_2.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_3.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_3.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_4.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_4.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_5.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_5.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_6.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_6.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_1.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_1.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_2.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_2.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_3.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_3.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_4.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_4.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_5.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_5.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_6.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_6.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_1.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_1.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_2.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_2.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_3.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_3.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_4.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_4.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_5.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_5.jpg">
+							</div>
+						</div>
+						<div class="works__slide swiper-slide">
+							<div data-fancybox="works-gallery" data-src="img/lend/works_6.jpg" class="works__slide-image ">
+								<img loading="lazy" src="img/lend/works_6.jpg">
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="works__desc-slider swiper-container">
+					<div class="works__desc-wrapper swiper-wrapper">
+						<div class="works__desc-slide swiper-slide">
+							<div class="works__name">1Костюм зимний сигнальный "Фотон" с п/к </div>
+							<div class="works__desc">Костюм с притачной утепляющей подкладкой</div>
+							<div class="works__advantages-row">
+								<div class="works__adv-item"><img src="img/lend/adv_1.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_2.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_3.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_4.svg" alt=""></div>
+							</div>
+							<div class="works__price">
+								<div class="works__price-text">Цена</div>
+								<div class="works__price-num">от 4400 ₽</div>
+							</div>
+						</div>
+						<div class="works__desc-slide swiper-slide">
+							<div class="works__name">2Костюм зимний "Бригадир" цв. серый с красной отделкой</div>
+							<div class="works__desc">Костюм с притачной утепляющей подкладкой и жилетом.
+
+								Куртка:
+
+								потайная центральная застежка на двухзамковую молнию с ветрозащитным клапаном на липучке. Закрытая молния исключает контакт фурнитуры с оборудованием;
+
+								множество карманов для удобства эксплуатации:
+
+								-нагрудные накладные с клапаном на липучке;
+
+								-левый с отделением для бейджа;
+
+								-нижние накладные с клапаном;
+
+								-левый внутренний карман на липучке.</div>
+							<div class="works__advantages-row">
+								<div class="works__adv-item"><img src="img/lend/adv_1.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_2.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_3.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_4.svg" alt=""></div>
+							</div>
+							<div class="works__price">
+								<div class="works__price-text">Цена</div>
+								<div class="works__price-num">от 4400 ₽</div>
+							</div>
+						</div>
+						<div class="works__desc-slide swiper-slide">
+							<div class="works__name">3Костюм зимний сигнальный "Фотон" с п/к </div>
+							<div class="works__desc">Костюм с притачной утепляющей подкладкой</div>
+							<div class="works__advantages-row">
+								<div class="works__adv-item"><img src="img/lend/adv_1.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_2.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_3.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_4.svg" alt=""></div>
+							</div>
+							<div class="works__price">
+								<div class="works__price-text">Цена</div>
+								<div class="works__price-num">от 4400 ₽</div>
+							</div>
+						</div>
+						<div class="works__desc-slide swiper-slide">
+							<div class="works__name">4Костюм зимний "Бригадир" цв. серый с красной отделкой</div>
+							<div class="works__desc">Костюм с притачной утепляющей подкладкой и жилетом.
+
+								Куртка:
+
+								потайная центральная застежка на двухзамковую молнию с ветрозащитным клапаном на липучке. Закрытая молния исключает контакт фурнитуры с оборудованием;
+
+								множество карманов для удобства эксплуатации:
+
+								-нагрудные накладные с клапаном на липучке;
+
+								-левый с отделением для бейджа;
+
+								-нижние накладные с клапаном;
+
+								-левый внутренний карман на липучке.</div>
+							<div class="works__advantages-row">
+								<div class="works__adv-item"><img src="img/lend/adv_1.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_2.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_3.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_4.svg" alt=""></div>
+							</div>
+							<div class="works__price">
+								<div class="works__price-text">Цена</div>
+								<div class="works__price-num">от 4400 ₽</div>
+							</div>
+						</div>
+						<div class="works__desc-slide swiper-slide">
+							<div class="works__name">5Костюм зимний сигнальный "Фотон" с п/к </div>
+							<div class="works__desc">Костюм с притачной утепляющей подкладкой</div>
+							<div class="works__advantages-row">
+								<div class="works__adv-item"><img src="img/lend/adv_1.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_2.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_3.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_4.svg" alt=""></div>
+							</div>
+							<div class="works__price">
+								<div class="works__price-text">Цена</div>
+								<div class="works__price-num">от 4400 ₽</div>
+							</div>
+						</div>
+						<div class="works__desc-slide swiper-slide">
+							<div class="works__name">6Костюм зимний "Бригадир" цв. серый с красной отделкой</div>
+							<div class="works__desc">Костюм с притачной утепляющей подкладкой и жилетом.
+
+								Куртка:
+
+								потайная центральная застежка на двухзамковую молнию с ветрозащитным клапаном на липучке. Закрытая молния исключает контакт фурнитуры с оборудованием;
+
+								множество карманов для удобства эксплуатации:
+
+								-нагрудные накладные с клапаном на липучке;
+
+								-левый с отделением для бейджа;
+
+								-нижние накладные с клапаном;
+
+								-левый внутренний карман на липучке.</div>
+							<div class="works__advantages-row">
+								<div class="works__adv-item"><img src="img/lend/adv_1.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_2.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_3.svg" alt=""></div>
+								<div class="works__adv-item"><img src="img/lend/adv_4.svg" alt=""></div>
+							</div>
+							<div class="works__price">
+								<div class="works__price-text">Цена</div>
+								<div class="works__price-num">от 4400 ₽</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="delivery">
+			<div class="delivery__content _container">
+				<div class="delivery__title">
+					Доставляем заказы
+					по всей России
+				</div>
+				<div class="delivery__row">
+					<div class="delivery__col">
+						<div class="delivery__item">
+							<div class="delivery__green-text">15</div>
+							<div class="delivery__decs">Лет на рынке</div>
+						</div>
+						<div class="delivery__item">
+							<div class="delivery__green-text">95%</div>
+							<div class="delivery__decs">продукции в наличии
+								на складе</div>
+						</div>
+					</div>
+					<div class="delivery__col">
+						<div class="delivery__item">
+							<div class="delivery__green-text">бесплатная доставка</div>
+							<div class="delivery__decs">при заказе от 20 000 ₽</div>
+						</div>
+						<div class="delivery__item">
+							<div class="delivery__green-text">скидки и отсрочки</div>
+							<div class="delivery__decs">для постоянных клиентов</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="delivery__map">
+				<img src="img/lend/map.png" alt="">
+				<div class="delivery__sky delivery__sky_left">
+					<img src="img/lend/sky.png" alt="">
+				</div>
+				<div class="delivery__sky delivery__sky_right">
+					<img src="img/lend/sky.svg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="services _container">
+			<div class="services__header">
+				<div class="services__title">Сервис</div>
+				<div class="services__subtitle">Для нас важно не только <b>качество</b> выпускаемой продукции, но и <b>комплексный сервис</b> для клиента, нацеленный на <b>долгосрочные отношения</b>. Всем нашим клиентам мы предлагаем широкий спектр услуг, таких как: </div>
+
+			</div>
+			<div class="services__items">
+				<a href="" class="services__item">
+					<span>Изготовление одежды по <b>спецзаказу</b></span>
+					<img src="img/lend/services_1.jpg" alt="">
+				</a>
+				<a href="" class="services__item">
+					<span>Наличие на складе
+						линейки <b>нестандартных</b>
+						размеров</span>
+					<img src="img/lend/services_2.jpg" alt="">
+				</a>
+				<a href="" class="services__item">
+					<span>Разработка фирменного
+						<b>стиля</b></span>
+					<img src="img/lend/services_3.jpg" alt="">
+				</a>
+				<a href="" class="services__item">
+					<span>Бесплатная <b>доставка</b> по России (при заказе от 20000 рублей)</span>
+					<img src="img/lend/services_4.jpg" alt="">
+				</a>
+				<a href="" class="services__item">
+					<span><b>Консультации</b> по вопросам
+						охраны труда</span>
+					<img src="img/lend/services_5.jpg" alt="">
+				</a>
+				<a href="" class="services__item">
+					<span>Нанесение
+						<b>логотипов</b></span>
+					<img src="img/lend/services_6.jpg" alt="">
+				</a>
+			</div>
+		</section>
+
+		<section class="photo-slider">
+			<div class="photo-slider__header">
+				<button type="button" class="swiper-button-prev">
+					<img src="img/lend/left-arrow.svg" alt="">
+					<img src="img/lend/left-arrow_grey.svg" alt="">
+				</button>
+				<div class="swiper-pagination"></div>
+				<button type="button" class="swiper-button-next">
+					<img src="img/lend/right-arrow.svg" alt="">
+					<img src="img/lend/right-arrow_grey.svg" alt="">
+				</button>
+			</div>
+			<div class="photo-slider__slider swiper-container">
+				<div class="photo-slider__wrapper swiper-wrapper">
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_1.jpg"><img src="img/lend/photo_1.jpg" alt=""></div>
+					</div>
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_2.jpg"><img src="img/lend/photo_2.jpg" alt=""></div>
+					</div>
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_3.jpg"><img src="img/lend/photo_3.jpg" alt=""></div>
+					</div>
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_1.jpg"><img src="img/lend/photo_1.jpg" alt=""></div>
+					</div>
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_2.jpg"><img src="img/lend/photo_2.jpg" alt=""></div>
+					</div>
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_3.jpg"><img src="img/lend/photo_3.jpg" alt=""></div>
+					</div>
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_1.jpg"><img src="img/lend/photo_1.jpg" alt=""></div>
+					</div>
+					<div class="photo-slider__slide swiper-slide">
+						<div class="photo-slider__image" data-fancybox="gallery" data-src="img/lend/photo_2.jpg"><img src="img/lend/photo_2.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="callback _container">
+			<div class="callback__row">
+				<div class="callback__col">
+					<div class="callback__desc">
+						<div class="callback__text">Хотите лично ознакомиться с технологическими процессами нашего производства?</div>
+						<div class="callback__sm-text">Запишитесь на экскурсию</div>
+					</div>
+					<div class="callback__human"><img src="img/lend/form-human.png" alt=""></div>
+				</div>
+				<div class="callback__col">
+					<div class="callback__form">
+						<form action="" class="form">
+							<div class="form__line">
+								<input type="text" name="form[]" data-error="Ошибка" data-value="Ваше имя" class="form__input">
+							</div>
+							<div class="form__line">
+								<input required data-parsley-required-message="Введите телефон" type="text" name="form[]" data-value="Контактный телефон" class="form__input js_phone">
+							</div>
+							<div class="form__line">
+								<textarea autocomplete="off" name="form[]" data-value="Комментарий" data-error="Ошибка" class="form__txta"></textarea>
+							</div>
+							<div class="form__row">
+								<button type="submit" class="form__button green-btn">Записаться на экскурсию</button>
+								<div class="form__checkbox">
+									<label class="checkbox">
+										<input data-error="Ошибка" class="checkbox__input" required type="checkbox" checked value="1" name="form[]">
+										<span class="checkbox__text"><span>Я даю свое согласие на <a class="js_popup-link" href="#consent">обработку персональных данных</a></span></span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="advantages__title _container">Преимущества</div>
+			<div class="advantages__row _container">
+				<div class="advantages__card">
+					<div class="advantages__top">
+						<div class="advantages__num">01</div>
+						<div class="advantages__icon"><img src="img/lend/advantages_1.svg" alt=""></div>
+					</div>
+					<div class="advantages__text">Вся продукция, производимая ООО ТД «Бригадир» имеет заключение МинПромТорг, о подтверждении производства промышленной продукции на территории Российской Федерации. Что позволяет нашим клиентам возмещать из Фонда Социального Страхования(ФСС) расходы на приобретение спецодежды.</div>
+				</div>
+				<div class="advantages__card">
+					<div class="advantages__top">
+						<div class="advantages__num">02</div>
+						<div class="advantages__icon"><img src="img/lend/advantages_2.svg" alt=""></div>
+					</div>
+					<div class="advantages__text">Наши готовые решения по крою отточены опытным путем, при разработке спецодежды строго соблюдаются нормы ГОСТ и требования по охране труда. Каждый этап находится под контролем ОТК, а для производства используются только высококачественные материалы.</div>
+				</div>
+				<div class="advantages__card">
+					<div class="advantages__top">
+						<div class="advantages__num">03</div>
+						<div class="advantages__icon"><img src="img/lend/advantages_3.svg" alt=""></div>
+					</div>
+					<div class="advantages__text">У нас полный цикл собственного производства: дизайн, пошив, нанесение логотипов, вышивки. При этом производство безотходное, с заботой об окружающей среде: обрезки утеплителя, флиса, мембраны - мы передаем для вторичного производства.</div>
+				</div>
+				<div class="advantages__card">
+					<div class="advantages__top">
+						<div class="advantages__num">04</div>
+						<div class="advantages__icon"><img src="img/lend/advantages_4.svg" alt=""></div>
+					</div>
+					<div class="advantages__text">Большой выбор моделей и вариантов расцветки. Предоставляем тестовые образцы моделей, если это необходимо. Также можем выполнить пошив спецодежды по индивидуальному заказу. Минимальной партии на пошив нет.</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="trust _container">
+			<div class="trust__header">
+				<div class="trust__title">Нам доверяют</div>
+				<div class="trust__text">безопасность персонала
+					и охрану труда</div>
+			</div>
+			<div class="trust__wrapper">
+				<div class="trust__item"><img src="img/lend/company_1.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_2.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_3.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_4.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_5.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_6.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_7.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_8.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_9.jpg" alt=""></div>
+				<div class="trust__item"><img src="img/lend/company_10.jpg" alt=""></div>
+			</div>
+		</section>
+		<!-- <section class="index-about">
+			<div class="index-about__container _container">
+				<div class="popular">
+	<div class="popular__wrapper">
+		<div class="popular__header">
+			<div class="popular__title">Популярные товары</div>
+			<div class="popular__nav">
+				<div class="popular__nav-prev_1">
+					<svg class="popular__nav-svg">
+						<use xlink:href=" img/svg/sprite.svg#arrow_lt_wht"></use>
+					</svg>
+				</div>
+				<div class="popular__nav-next_1">
+					<svg class="popular__nav-svg">
+						<use xlink:href=" img/svg/sprite.svg#arrow_rt_wht"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-container popular__slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">66 680 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">66 680 ₽</div>
+										<div class="price__old">66 800 ₽</div>
+										<div class="price__discount">-20%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм мужской утепленный «Статус» с полукомбинезоном, (смесовая)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_2.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_3.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_4.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">66 680 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">66 680 ₽</div>
+										<div class="price__old">66 800 ₽</div>
+										<div class="price__discount">-20%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм мужской утепленный «Статус» с полукомбинезоном, (смесовая)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_12.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_11.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_10.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_9.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">66 680 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">66 680 ₽</div>
+										<div class="price__old">66 800 ₽</div>
+										<div class="price__discount">-20%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_8.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм мужской утепленный «Статус» с полукомбинезоном, (смесовая)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_7.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_6.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_5.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+				<div class="index-about__row">
+					<div class="index-about__col">
+						<div class="index-about__desc">Компания «Бригадир» – крупнейший производитель спецодежды в Красноярском крае, с локализацией производственных мощностей непосредственно на территории присутствия</div>
+						<a href="" class="index-about__more more-btn">
+							<span class="more-btn__text">Подробнее</span>
+							<svg class="more-btn__svg">
+								<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="index-about__col">
+						<div class="index-about__regalia">
+							<div class="index-about__regalia-num">15</div>
+							<div class="index-about__regalia-text">Лет на рынке</div>
+						</div>
+						<div class="index-about__regalia">
+							<div class="index-about__regalia-num">100 000+</div>
+							<div class="index-about__regalia-text">швейных изделий в год</div>
+						</div>
+						<div class="index-about__regalia">
+							<div class="index-about__regalia-num">5300+</div>
+							<div class="index-about__regalia-text">клиентов</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="index-works">
+			<div class="index-works__container  _container">
+				<div class="index-works__wrapper">
+					<div class="index-works__header">
+						<div class="index-works__title">Наши работы</div>
+						<div class="index-works__nav">
+							<div class="index-works__nav-prev">
+								<svg class="index-works__nav-svg">
+									<use xlink:href=" img/svg/sprite.svg#arrow_lt_wht"></use>
+								</svg>
+							</div>
+							<div class="index-works__nav-next">
+								<svg class="index-works__nav-svg">
+									<use xlink:href=" img/svg/sprite.svg#arrow_rt_wht"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-container index-works__slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="" class="case-card">
+									<div class="case-card__image">
+										<img loading="lazy" class="case-card__image-img" alt="" src="img/pictures/case_1.png">
+									</div>
+									<div class="case-card__center">
+										<div class="case-card__name">Нанесение логотипа Elite Porche</div>
+										<div class="case-card__labels">
+											<div class="case-card__label">Спорт</div>
+											<div class="case-card__label">Геология</div>
+											<div class="case-card__label">Альпинизм</div>
+											<div class="case-card__label">Стройка</div>
+											<div class="case-card__label">Низкие температуры</div>
+										</div>
+										<div class="case-card__desc">Применение технологии нанесения шевронов для спортивного бренда</div>
+									</div>
+									<div class="case-card__bottom">
+										<div class="case-card__logo">
+											<img loading="lazy" class="case-card__logo-img" src="img/logo/company_logo_1.png" alt="">
+										</div>
+										<div class="case-card__more more-btn">
+											<svg class="more-btn__svg">
+												<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+											</svg>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="case-card">
+									<div class="case-card__image">
+										<img loading="lazy" class="case-card__image-img" alt="" src="img/pictures/case_2.png">
+									</div>
+									<div class="case-card__center">
+										<div class="case-card__name">Многолетнее сотрудничество с геологической компанией</div>
+										<div class="case-card__labels">
+											<div class="case-card__label">Геология</div>
+											<div class="case-card__label">Альпинизм</div>
+										</div>
+										<div class="case-card__desc">Ребята передают привет из Рязани</div>
+									</div>
+									<div class="case-card__bottom">
+										<div class="case-card__logo">
+											<img loading="lazy" class="case-card__logo-img" src="img/logo/company_logo_2.png" alt="">
+										</div>
+										<div class="case-card__more more-btn">
+											<svg class="more-btn__svg">
+												<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+											</svg>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="case-card">
+									<div class="case-card__image">
+										<img loading="lazy" class="case-card__image-img" alt="" src="img/pictures/case_3.png">
+									</div>
+									<div class="case-card__center">
+										<div class="case-card__name">Многолетнее сотрудничество с геологической компанией</div>
+										<div class="case-card__labels">
+											<div class="case-card__label">Стройка</div>
+											<div class="case-card__label">Низкие температуры</div>
+										</div>
+										<div class="case-card__desc">Применение технологии нанесения шевронов для спортивного бренда</div>
+									</div>
+									<div class="case-card__bottom">
+										<div class="case-card__logo">
+											<img loading="lazy" class="case-card__logo-img" src="img/logo/company_logo_3.png" alt="">
+										</div>
+										<div class="case-card__more more-btn">
+											<svg class="more-btn__svg">
+												<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+											</svg>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popular">
+	<div class="popular__wrapper">
+		<div class="popular__header">
+			<div class="popular__title">Новинки</div>
+			<div class="popular__nav">
+				<div class="popular__nav-prev_2">
+					<svg class="popular__nav-svg">
+						<use xlink:href=" img/svg/sprite.svg#arrow_lt_wht"></use>
+					</svg>
+				</div>
+				<div class="popular__nav-next_2">
+					<svg class="popular__nav-svg">
+						<use xlink:href=" img/svg/sprite.svg#arrow_rt_wht"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-container popular__slider2">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">66 680 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">66 680 ₽</div>
+										<div class="price__old">66 800 ₽</div>
+										<div class="price__discount">-20%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм мужской утепленный «Статус» с полукомбинезоном, (смесовая)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_2.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_3.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_4.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">66 680 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">66 680 ₽</div>
+										<div class="price__old">66 800 ₽</div>
+										<div class="price__discount">-20%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_1.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм мужской утепленный «Статус» с полукомбинезоном, (смесовая)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_12.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_11.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_10.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_9.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">66 680 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">66 680 ₽</div>
+										<div class="price__old">66 800 ₽</div>
+										<div class="price__discount">-20%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_8.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм мужской утепленный «Статус» с полукомбинезоном, (смесовая)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_7.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_6.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="card">
+						<a href="" class="card__link">
+							<div class="card__image">
+								<img loading="lazy" class="card__image-img" alt="" src="img/catalog/catalog_img_5.png">
+							</div>
+							<div class="card__center">
+								<div class="card__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="card__prices price">
+									<div class="price__opt">
+										<div class="price__title">Опт</div>
+										<div class="price__main">22 180 ₽</div>
+										<div data-tippy-content="Текст подсказки, снимающий все недопонимания. Умещает тонну текста и несет много пользы. Знания - сила." class="price__tippy tippy">?</div>
+									</div>
+									<div class="price__rozn">
+										<div class="price__title">Розница</div>
+										<div class="price__main">22 180 ₽</div>
+										<div class="price__old">2 800 ₽</div>
+										<div class="price__discount">-10%</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="card__bottom">
+							<div class="card__buttons">
+								<button type="submit" class="card__button green-btn">Выбрать размер</button>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_compare"></use>
+									</svg>
+									<span class="card__button-item-span">Сравнить</span>
+								</a>
+								<a href="" class="card__button-item">
+									<svg class="card__button-svg">
+										<use xlink:href=" img/svg/sprite.svg#add_favorites"></use>
+									</svg>
+									<span class="card__button-item-span">В избранное</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+		</section>
+		<section class="index-callback _container">
+			<div class="callback">
+				<div class="callback__row">
+					<div class="callback__col">
+						<div class="callback__text">Оставьте свои контактные данные и наши специалисты подберут для вас необходимые товары и сделают индивидуальное предложение</div>
+						<div class="callback__bg"></div>
+					</div>
+					<div class="callback__col">
+						<div class="callback__form">
+							<form action="" class="form">
+								<div class="form__line">
+									<input type="text" name="form[]" data-error="Ошибка" data-value="Ваше имя" class="form__input">
+								</div>
+								<div class="form__line">
+									<input required data-parsley-required-message="Введите телефон" type="text" name="form[]" data-value="Контактный телефон" class="form__input js_phone">
+								</div>
+								<div class="form__row">
+									<button type="submit" class="form__button trnt-btn">Задать вопрос</button>
+									<div class="form__checkbox">
+										<label class="checkbox">
+											<input data-error="Ошибка" class="checkbox__input" required type="checkbox" checked value="1" name="form[]">
+											<span class="checkbox__text"><span>Я даю свое согласие на <a class="js_popup-link" href="#consent">обработку персональных данных</a></span></span>
+										</label>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="index-services _container">
+			<div class="services">
+				<div class="services__row">
+					<a href="" class="services__item js_ibg">
+						<div class="services__more more-btn">
+							<span class="more-btn__text">Производство спецодежды в корпоративном стиле</span>
+							<svg class="more-btn__svg">
+								<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+							</svg>
+						</div>
+						<img loading="lazy" src="img/pictures/services_1.png" alt="" class="services__img">
+					</a>
+					<a href="" class="services__item js_ibg">
+						<div class="services__more more-btn">
+							<span class="more-btn__text">Доставка до склада покупателя</span>
+							<svg class="more-btn__svg">
+								<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+							</svg>
+						</div>
+						<img loading="lazy" src="img/pictures/services_2.png" alt="" class="services__img">
+					</a>
+					<a href="" class="services__item js_ibg">
+						<div class="services__more more-btn">
+							<span class="more-btn__text">Нанесение логотипа</span>
+							<svg class="more-btn__svg">
+								<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+							</svg>
+						</div>
+						<img loading="lazy" src="img/pictures/services_3.png" alt="" class="services__img">
+					</a>
+					<a href="" class="services__item js_ibg">
+						<div class="services__more more-btn">
+							<span class="more-btn__text">Пошив нестандартных размеров</span>
+							<svg class="more-btn__svg">
+								<use xlink:href="img/svg/sprite.svg#arrow_rt_wht"></use>
+							</svg>
+						</div>
+						<img loading="lazy" src="img/pictures/services_4.png" alt="" class="services__img">
+					</a>
+				</div>
+			</div>
+		</section> -->
+		</main>
+<footer class="footer">
+	<div class="footer__form">
+		<div class="form-footer _container">
+			<div class="form-footer__row">
+				<div class="form-footer__text">Подписывайтесь и получайте бонусы. Будьте в курсе новостей и выгодных предложений от компании</div>
+				<form action="#" method="get" class="form-footer__form form">
+					<div class="form__line">
+						<input autocomplete="off" type="email" name="email" data-parsley-type="email" data-parsley-trigger="change" data-parsley-required-message="Введите ваш e-mail" data-value="E-mail" class="form__input">
+					</div>
+					<button type="submit" class="form-footer__btn green-btn">Подписаться</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer__row _container">
+		<div class="footer__col">
+			<div class="footer__menu">
+				<ul class="footer__menu-list">
+					<li class="footer__menu-item"><a href="about.html" class="footer__menu-link">О компании</a></li>
+					<li class="footer__menu-item"><a href="our-works.html" class="footer__menu-link">Наши работы</a></li>
+					<li class="footer__menu-item"><a href="delivery.html" class="footer__menu-link">Доставка и оплата</a></li>
+					<li class="footer__menu-item"><a href="services.html" class="footer__menu-link">Услуги</a></li>
+					<li class="footer__menu-item"><a href="faq.html" class="footer__menu-link">Вопросы и ответы</a></li>
+					<li class="footer__menu-item"><a href="articles.html" class="footer__menu-link">Статьи</a></li>
+					<li class="footer__menu-item"><a href="contacts.html" class="footer__menu-link">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="footer__center">
+				<div class="footer__inner">
+					<a href="tel:88002019329" class="footer__phone">
+						<svg class="footer__phone-svg">
+							<use xlink:href="img/svg/sprite.svg#icon_phone"></use>
+						</svg>
+						<span>8 800 201-93-29</span>
+					</a>
+					<a href="mailto:24@24-cpec.ru" class="footer__mail">
+						<svg class="footer__mail-svg">
+							<use xlink:href="img/svg/sprite.svg#icon_mail"></use>
+						</svg>
+						<span>24@24-cpec.ru</span>
+					</a>
+				</div>
+				<div class="footer__working">
+					<svg class="footer__working-svg">
+						<use xlink:href="img/svg/sprite.svg#icon_watch"></use>
+					</svg>
+					<p class="footer__working-text">ПН–ПТ с 8:30–17:00 <br>СБ и ВС выходные</p>
+				</div>
+				<div class="footer__adders">
+					<svg class="footer__adders-svg">
+						<use xlink:href="img/svg/sprite.svg#icon_mark_wht"></use>
+					</svg>
+					<p class="footer__adders-text">Красноярск, Джамбульская, 16, стр. 2, оф. 3-50</p>
+				</div>
+				<div class="footer__social">
+					<a target="_blank" href="https://www.instagram.com/" class="footer__social-link"><img src="img/pictures/social_inst.png" alt="" class="footer__social-img"></a>
+					<a target="_blank" href="https://vk.com/" class="footer__social-link"><img src="img/pictures/social_vk.png" alt="" class="footer__social-img"></a>
+					<a target="_blank" href="https://www.facebook.com/" class="footer__social-link"><img src="img/pictures/social_fb.png" alt="" class="footer__social-img"></a>
+					<a target="_blank" href="https://ok.ru/" class="footer__social-link"><img src="img/pictures/social_ok.png" alt="" class="footer__social-img"></a>
+					<a target="_blank" href="https://www.youtube.com/" class="footer__social-link"><img src="img/pictures/social_youtube.png" alt="" class="footer__social-img"></a>
+				</div>
+			</div>
+			<div class="footer__markets">
+				<div class="markets" data-da=".footer__col_da,767,2">
+					<div class="markets__title">Мы на маркетах:</div>
+					<div class="markets__row">
+						<a href="" class="markets__link"><img src="img/logo/market_1.png" alt="" class="markets__img"></a>
+						<a href="" class="markets__link"><img src="img/logo/market_2.png" alt="" class="markets__img"></a>
+						<a href="" class="markets__link"><img src="img/logo/market_3.png" alt="" class="markets__img"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__col footer__col_da">
+			<div class="footer__price" data-da=".footer__menu,767,1">
+				<a href="" class="footer__price-link">
+					<svg class="footer__price-svg">
+						<use xlink:href="img/svg/sprite.svg#icon_print"></use>
+					</svg>
+					<span class="footer__price-link-text">Прайс-лист</span>
+				</a>
+				<span class="footer__price-doc">PDF, 1.8 МB</span>
+			</div>
+			<a href="#callback" class="footer__callback grey-btn js_popup-link">Обратная связь</a>
+			<div class="footer__pay">
+				<div class="payment">
+					<span class="payment__text">Принимаем к оплате:</span>
+					<div class="payment__row">
+						<div class="payment__item">
+							<img src="img/logo/pay_1.png" alt="">
+						</div>
+						<div class="payment__item">
+							<img src="img/logo/pay_2.png" alt="">
+						</div>
+						<div class="payment__item">
+							<img src="img/logo/pay_3.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom copyright _container">
+		<div class="copyright__body">
+			<div class="copyright__item">2022 © ТД «Бригадир»</div>
+			<a href="#policy" class="copyright__item js_popup-link">Политика конфиденциальности</a>
+			<a href="#consent" class="copyright__item js_popup-link">Согласие на обработку персональных данных</a>
+			<a href="https://websalt.ru" target="_blank" class="copyright__item">Создание сайта
+				<svg>
+					<use xlink:href=" img/svg/sprite.svg#logo_salt"></use>
+				</svg>
+			</a>
+		</div>
+	</div>
+</footer>
+<a href="" class="top-button">
+	<svg class="top-button__arrow">
+		<use xlink:href=" img/svg/sprite.svg#arrow_to_top"></use>
+	</svg>
+</a>
+	</div>
+	<div class="popup-box">
+	<div class="popup popup_cabinet">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Авторизация</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input required data-parsley-type="email" autofocus type="email" name="form[]" data-error="Введите E-mail" data-value="Ваш E-mail" class=" form__input">
+							</div>
+							<div class="form__line">
+								<input required autocomplete="off" type="password" name="form[]" data-error="Введите пароль" data-value="Пароль" class="form__input">
+							</div>
+							<div class="form__row">
+								<div class="form__col">
+									<label class="checkbox">
+										<input data-error="" class="checkbox__input" required type="checkbox" checked value="1" name="form[]">
+										<span class="checkbox__text">Запомнить меня</span>
+									</label>
+								</div>
+							</div>
+							<div class="popup__btns">
+								<button type="submit" class="form__button green-btn">Войти</button>
+								<a href="#forgot-pass" class="popup__btn js_popup-link">Забыли пароль?</a>
+							</div>
+						</form>
+					</div>
+					<a href="#register" class="popup__btn trnt-btn js_popup-link">Зарегистрироваться</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_basket basket-empty">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__empty-logo">
+						<svg class="popup__empty-icon">
+							<use xlink:href="img/svg/sprite.svg#basket_empty"></use>
+						</svg>
+					</div>
+					<div class="popup__empty-text">В корзине <br>пока ничего нет</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_search">
+		<div class="popup__content">
+			<div class="popup__body">
+				<form action="" class="form">
+					<div class="popup__top">
+						<div class="form__line">
+							<svg>
+								<use xlink:href=" img/svg/sprite.svg#menu_rt_search"></use>
+							</svg>
+							<input type="text" name="form[]" data-value="Поиск по товарам" class="form__input">
+						</div>
+						<div class="popup__close"></div>
+					</div>
+					<div class="popup__center search-result">
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_2.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">18000 ₽</div>
+									<div class="search-result__price-old">19080 ₽</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_11.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">19780 ₽</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_12.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">19780 ₽</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_1.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">4 580 ₽</div>
+									<div class="search-result__price-old">2 800 ₽</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_2.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм муж утепленный Асгард (куртка и брюки)</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">18000 ₽</div>
+									<div class="search-result__price-old">19080 ₽</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_11.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">19780 ₽</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_12.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм муж утепленный Фотон (куртка и полукомбинезон )</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">19780 ₽</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="search-result__item">
+							<div class="search-result__image"><img loading="lazy" src="img/catalog/catalog_img_1.png" alt=""></div>
+							<div class="search-result__content">
+								<div class="search-result__name">Костюм утепленный "Спектр" с полукомбинезоном</div>
+								<div class="search-result__prices">
+									<div class="search-result__price">4 580 ₽</div>
+									<div class="search-result__price-old">2 800 ₽</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<button type="submit" class="form__button green-btn">Показать все</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_consent">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Cогласие на обработку персональных данных</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__text">Согласие посетителя сайта http://www.terminal3.ru на обработку персональных данных
+					</div>
+					<div class="popup__text">Настоящим свободно, своей волей и в своем интересе даю согласие ООО «Терминал-3», которое находится по адресу: http://www.terminal3.ru , на автоматизированную и неавтоматизированную обработку моих персональных данных, в том числе с использованием интернет - сервисов на сайте http://www.terminal3.ru в соответствии со следующим перечнем:
+						<ul class="popup__list">
+							<li class="popup__item">персональные данные – номер телефона, адрес моей электронной почты, фамилия, имя, отчество;</li>
+							<li class="popup__item">источник захода на сайт http://www.terminal3.ru  и информация поискового или рекламного запроса;</li>
+							<li class="popup__item">данные о пользовательском устройстве (среди которых разрешение, версия и другие атрибуты, характеризующие пользовательское устройство);</li>
+							<li class="popup__item">пользовательские клики, просмотры страниц, заполнения полей, показы и просмотры баннеров и видео;</li>
+							<li class="popup__item">данные, характеризующие аудиторные сегменты;</li>
+							<li class="popup__item">номер телефона, адрес моей электронной почты, фамилия, имя, отчество; параметры сессии;</li>
+							<li class="popup__item">данные о времени посещения;</li>
+							<li class="popup__item">идентификатор пользователя, хранимый в cookie,</li>
+						</ul>
+					</div>
+					<div class="popup__text">для целей повышения осведомленности посетителей Сайта http://www.terminal3.ru о продуктах и услугах ООО «Терминал-3», предоставления релевантной рекламной информации и оптимизации рекламы, исполнения договорных обязательств, проведение рекламных кампаний и маркетинговых исследований.</div>
+					<div class="popup__text">Также даю свое согласие на предоставление ООО «Терминал-3» моих персональных данных как посетителя Сайта http://www.terminal3.ru, с которыми сотрудничает ООО «Терминал-3».  ООО «Терминал-3» вправе осуществлять обработку моих персональных данных следующими способами: сбор, запись, систематизация, накопление, хранение, обновление, изменение, использование, передача (распространение, предоставление, доступ).</div>
+					<div class="popup__text">Настоящее согласие вступает в силу с момента моего перехода на Сайт http://www.terminal3.ru и действует в течение сроков, установленных действующим законодательством РФ.</div>
+					<div class="popup__text">Основанием для обработки персональных данных являются: Ст. 24 Конституции Российской Федерации; ст.6 Федерального закона №152-ФЗ «О персональных данных».</div>
+					<div class="popup__text">Персональные данные обрабатываются до окончания обработки. Так же обработка персональных данных может быть прекращена по запросу субъекта персональных данных.</div>
+					<div class="popup__text">Хранение персональных данных, зафиксированных на бумажных носителях осуществляется согласно Федеральному закону №125-ФЗ «Об архивном деле в Российской Федерации» и иным нормативно правовым актам в области архивного дела и архивного хранения. Срок или условие прекращения обработки персональных данных: прекращение деятельности ООО «Терминал-3».</div>
+				</div>
+				<div class="popup__btns">
+					<a href="" class="form__button trnt-btn">Принимаю</a>
+					<a href="" class="form__button trnt-btn">Не принимаю</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_policy">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Политика конфиденциальности</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__text">Мы стремимся уважать информацию личного характера, касающуюся посетителей нашего сайта. В настоящей Политике конфиденциальности разъясняются некоторые из мер, которые мы предпринимаем для защиты Вашей частной жизни.</div>
+					<div class="popup__subtitle">Конфиденциальность информации личного характера</div>
+					<div class="popup__text">"Информация личного характера" обозначает любую информацию, которая может быть использована для идентификации личности, например, фамилия или адрес электронной почты.</div>
+					<div class="popup__subtitle">Использование информации частного характера</div>
+					<div class="popup__text">Информация личного характера, полученная через наш сайт, используется нами, среди прочего, для целей регистрирования пользователей, для поддержки работы и совершенствования нашего сайта, отслеживания политики и статистики пользования сайтом, а также в целях, разрешенных вами.</div>
+					<div class="popup__subtitle">Раскрытие информации частного характера</div>
+					<div class="popup__text">Мы нанимаем другие компании или связаны с компаниями, которые по нашему поручению предоставляют услуги, такие как обработка и доставка информации, размещение информации на данном сайте, доставка содержания и услуг, предоставляемых настоящим сайтом, выполнение статистического анализа. Чтобы эти компании могли предоставлять эти услуги, мы можем сообщать им информацию личного характера, однако им будет разрешено получать только ту информацию личного характера, которая необходима им для предоставления услуг. Они обязаны соблюдать конфиденциальность этой информации, и им запрещено использовать ее в иных целях.</div>
+					<div class="popup__text">Мы можем использовать или раскрывать Ваши личные данные и по иным причинам, в том числе, если мы считаем, что это необходимо в целях выполнения требований закона или решений суда, для защиты наших прав или собственности, защиты личной безопасности пользователей нашего сайта или представителей широкой общественности, в целях расследования или принятия мер в отношении незаконной или предполагаемой незаконной деятельности, в связи с корпоративными сделками, такими как разукрупнение, слияние, консолидация, продажа активов или в маловероятном случае банкротства, или в иных целях в соответствии с Вашим согласием.</div>
+					<div class="popup__subtitle"></div>
+					<div class="popup__text">Мы можем использовать или раскрывать Ваши личные данные и по иным причинам, в том числе, если мы считаем, что это необходимо в целях выполнения требований закона или решений суда, для защиты наших прав или собственности, защиты личной безопасности пользователей нашего сайта или представителей широкой общественности, в целях расследования или принятия мер в отношении незаконной или предполагаемой незаконной деятельности, в связи с корпоративными сделками, такими как разукрупнение, слияние, консолидация, продажа активов или в маловероятном случае банкротства, или в иных целях в соответствии с Вашим согласием.</div>
+					<div class="popup__subtitle">Доступ к информации личного характера</div>
+					<div class="popup__text">Если после предоставления информации на данный сайт, Вы решите, что Вы не хотите, чтобы Ваша персональная информация использовалась в каких-либо целях, связавшись с нами по следующему адресу: zlk@terminal3.ru.</div>
+					<div class="popup__subtitle">Наша практика в отношении информации неличного характера</div>
+					<div class="popup__text">Мы можем собирать информацию неличного характера о Вашем посещении сайта, в том числе просматриваемые вами страницы, выбираемые вами ссылки, а также другие действия в связи с Вашим использованием нашего сайта. Кроме того, мы можем собирать определенную стандартную информацию, которую Ваш браузер направляет на любой посещаемый вами сайт, такую как Ваш IP-адрес, тип браузера и язык, время, проведенное на сайте, и адрес соответствующего веб-сайта.</div>
+					<div class="popup__subtitle">Использование закладок (cookies)</div>
+					<div class="popup__text">Файл cookie - это небольшой текстовый файл, размещаемый на Вашем твердом диске нашим сервером. Cookies содержат информацию, которая позже может быть нами прочитана. Никакие данные, собранные нами таким путем, не могут быть использованы для идентификации посетителя сайта. Не могут cookies использоваться и для запуска программ или для заражения Вашего компьютера вирусами. Мы используем cookies в целях контроля использования нашего сайта, сбора информации неличного характера о наших пользователях, сохранения Ваших предпочтений и другой информации на Вашем компьютере с тем, чтобы сэкономить Ваше время за счет снятия необходимости многократно вводить одну и ту же информацию, а также в целях отображения Вашего персонализированного содержания в ходе Ваших последующих посещений нашего сайта. Эта информация также используется для статистических исследований, направленных на корректировку содержания в соответствии с предпочтениями пользователей.</div>
+					<div class="popup__subtitle">Агрегированная информация</div>
+					<div class="popup__text">Мы можем объединять в неидентифицируемом формате предоставляемую вами личную информацию и личную информацию, предоставляемую другими пользователями, создавая таким образом агрегированные данные. Мы планируем анализировать данные агрегированного характера в основном в целях отслеживания групповых тенденций. Мы не увязываем агрегированные данные о пользователях с информацией личного характера, поэтому агрегированные данные не могут использоваться для установления связи с вами или Вашей идентификации. Вместо фактических имен в процессе создания агрегированных данных и анализа мы будем использовать имена пользователей. В статистических целях и в целях отслеживания групповых тенденций анонимные агрегированные данные могут предоставляться другим компаниям, с которыми мы взаимодействуем.</div>
+					<div class="popup__subtitle">Изменения, вносимые в настоящее Заявление о конфиденциальности</div>
+					<div class="popup__text">Мы сохраняем за собой право время от времени вносить изменения или дополнения в настоящую Политику конфиденциальности - частично или полностью. Мы призываем Вас периодически перечитывать нашу Политику конфиденциальности с тем, чтобы быть информированными относительно того, как мы защищаем Вашу личную информацию. С последним вариантом Политики конфиденциальности можно ознакомиться путем нажатия на гипертекстовую ссылку "Политика конфиденциальности", находящуюся в нижней части домашней страницы данного сайта. Во многих случаях, при внесении изменений в Политику конфиденциальности, мы также изменяем и дату, проставленную в начале текста Политики конфиденциальности, однако других уведомлений об изменениях мы можем вам не направлять. Однако, если речь идет о существенных изменениях, мы уведомим Вас, либо разместив предварительное заметное объявление о таких изменениях, либо непосредственно направив вам уведомление по электронной почте. Продолжение использования вами данного сайта и выход на него означает Ваше согласие с такими изменениями.</div>
+					<div class="popup__text">Связь с нами. Если у Вас возникли какие-либо вопросы или предложения по поводу нашего положения о конфиденциальности, пожалуйста, свяжитесь с нами по следующему адресу: zlk@terminal3.ru.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_quick-order">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Быстрый заказ</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__text">Введите номер телефона и наш специалист свяжется с вами для уточнения деталей</div>
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input required type="tel" name="form[]" data-error="" data-value="Телефон" class="form__input js_phone">
+							</div>
+							<div class="popup__btns">
+								<button type="submit" class="form__button green-btn">Войти</button>
+								<div class="form__checkbox">
+									<label class="checkbox">
+										<input data-error="Ошибка" class="checkbox__input" required type="checkbox" checked value="1" name="form[]">
+										<span class="checkbox__text"><span>Я даю свое согласие на <a class="js_popup-link" href="#consent">обработку персональных данных</a></span></span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_callback">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Заказать звонок</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__text">Укажите номер телефона и мы свяжемся с вами для уточнения деталей</div>
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Ваше имя" data-value="Ваше имя" class="form__input">
+							</div>
+							<div class="form__line">
+								<input required autocomplete="off" type="text" name="form[]" data-error="Введите номер телефона" data-value="Ваш номер телефона" class="form__input js_phone">
+							</div>
+							<div class="form__line">
+								<textarea autocomplete="off" name="form[]" data-value="Комментарий" data-error="Ошибка" class="form__txta"></textarea>
+							</div>
+							<div class="popup__btns">
+								<button type="submit" class="form__button green-btn">Заказать</button>
+								<div class="form__checkbox">
+									<label class="checkbox">
+										<input data-error="Ошибка" class="checkbox__input" required type="checkbox" checked value="1" name="form[]">
+										<span class="checkbox__text"><span>Я даю свое согласие на <a class="js_popup-link" href="#consent">обработку персональных данных</a></span></span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_chang-address">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Изменить адрес</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Адрес" data-value="Адрес" class="form__input">
+							</div>
+							<button type="submit" class="form__button green-btn">Сохранить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_change-data">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Изменение данных</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Ваше имя" data-value="Ваше имя" class="form__input">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Телефон" data-value="Телефон" class="form__input js_phone">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" type="email" name="email" data-parsley-type="email" data-parsley-trigger="change" data-parsley-required-message="Введите ваш e-mail" data-value="E-mail" class="form__input">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Адрес" data-value="Адрес" class="form__input">
+							</div>
+							<button type="submit" class="form__button green-btn">Сохранить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_add-profile">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Добавить профиль</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Ваше имя" data-value="Ваше имя" class="form__input">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Телефон" data-value="Телефон" class="form__input js_phone">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" type="email" name="email" data-parsley-type="email" data-parsley-trigger="change" data-parsley-required-message="Введите ваш e-mail" data-value="E-mail" class="form__input">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Адрес" data-value="Адрес" class="form__input">
+							</div>
+							<div class="form__line form__line_radio">
+								<input type="radio" name="ownership" id="ownership_1" class="addresses__input" checked>
+								<label for="ownership_1">Физическое лицо</label>
+							</div>
+							<div class="form__line form__line_radio">
+								<input type="radio" name="ownership" id="ownership_2" class="addresses__input">
+								<label for="ownership_2">Юридическое лицо</label>
+							</div>
+							<button type="submit" class="form__button green-btn">Сохранить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_forgot-pass">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Восстановление пароля</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__text">Укажите адрес электронной почты, с которым вы регистрировались ранее, и мы вышлем инструкцию по смене пароля</div>
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-parsley-type="email" data-parsley-trigger="change" data-parsley-required-message="Введите ваш e-mail" data-error="Введите E-mail" data-value="Ваш E-mail" class="form__input">
+							</div>
+							<div class="popup__btns">
+								<button type="submit" class="form__button green-btn">Отправить</button>
+								<a href="#cabinet" class="popup__btn js_popup-link">Авторизация</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_register">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Регистрация</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__block js_tabs">
+						<div class="popup__nav">
+							<div class="popup__nav-item js_tabs-item _active">Физическое лицо</div>
+							<div class="popup__nav-item js_tabs-item">Юридическое лицо</div>
+						</div>
+						<div class="popup__forms">
+							<div class="popup__form js_tabs-block _active">
+								<form id="form_reg_fiz" method="post" data-parsley-validate="" action="/" class="form form-register form-ajax" novalidate="" data-component="mkmatrix:profile.enter" data-action="register" name="register">
+									<input type="hidden" name="profile[PROFILE_TYPE]" value="INDIVIDUAL_CUSTOMER_ID">
+									<div class="form__line">
+										<input required="" autocomplete="off" type="text" name="name" data-parsley-required-message="Введите имя" data-value="Ваше имя" class="form__input"><span class="form__input-placeholder">Ваше имя</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input required="" autocomplete="off" type="tel" name="phone" data-parsley-required-message="Введите телефон" data-value="Телефон" class="form__input _phone"><span class="form__input-placeholder">Телефон</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input required="" autocomplete="off" type="email" name="email" data-parsley-trigger="change" data-parsley-required-message="Введите ваш e-mail" data-value="E-mail" class="form__input parsley-success" data-parsley-id="63"><span class="form__input-placeholder">E-mail</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input required="" autocomplete="off" type="password" name="password" data-parsley-required-message="Введите пароль" data-value="Пароль" class="form__input"><span class="form__input-placeholder">Пароль</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input required="" autocomplete="off" type="password" name="confirm_password" data-parsley-required-message="Введите пароль" data-value="Подтверждение пароля" class="form__input"><span class="form__input-placeholder">Подтверждение пароля</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="popup__btns">
+										<button type="submit" class="form__button green-btn">Зарегистрироваться</button>
+										<div class="form__checkbox">
+											<label class="checkbox">
+												<input data-error="Ошибка" class="checkbox__input" type="checkbox" checked="" name="ch" data-parsley-multiple="ch">
+												<span class="checkbox__text"><span>Я даю свое согласие на <a class="_popup-link js_popup-link" href="#consent">обработку персональных данных</a></span></span>
+											</label>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="popup__form js_tabs-block">
+								<form method="post" data-parsley-validate="" action="/" class="form form-register form-ajax" novalidate="" data-component="mkmatrix:profile.enter" data-action="register" name="register2">
+									<input type="hidden" name="profile[PROFILE_TYPE]" value="LEGAL_ENTITY_CUSTOMER_ID">
+									<div class="form__line">
+										<input autocomplete="off" type="text" name="profile[COMPANY]" data-error="Введите название" data-value="Название компании" class="form__input"><span class="form__input-placeholder">Название компании</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input autocomplete="off" type="text" name="profile[INN]" data-error="Введите ИНН" data-value="ИНН" class="form__input"><span class="form__input-placeholder">ИНН</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input autocomplete="off" type="text" name="name" data-error="Введите данные" data-value="Контактное лицо" class="form__input"><span class="form__input-placeholder">Контактное лицо</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input autocomplete="off" type="tel" name="phone" data-error="Введите телефон" data-value="Телефон" class="form__input _phone"><span class="form__input-placeholder">Телефон</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input autocomplete="off" type="email" name="email" data-parsley-trigger="change" data-parsley-required-message="Введите ваш e-mail" data-value="E-mail" class="form__input"><span class="form__input-placeholder">E-mail</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input autocomplete="off" type="password" name="password" data-error="Введите пароль" data-value="Пароль" class="form__input"><span class="form__input-placeholder">Пароль</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="form__line">
+										<input autocomplete="off" type="password" name="confirm_password" data-error="Введите пароль" data-value="Подтверждение пароля" class="form__input"><span class="form__input-placeholder">Подтверждение пароля</span><span class="form__input-clear"><img src="img/svg/icon_clear.svg" alt=""></span>
+									</div>
+									<div class="popup__btns">
+										<button type="submit" class="form__button green-btn">Зарегистрироваться</button>
+										<div class="form__checkbox">
+											<label class="checkbox">
+												<input data-error="Ошибка" class="checkbox__input" type="checkbox" checked="" name="ch" data-parsley-multiple="ch">
+												<span class="checkbox__text"><span>Я даю свое согласие на <a class="_popup-link js_popup-link" href="#consent">обработку персональных данных</a></span></span>
+											</label>
+										</div>
+									</div>
+
+								</form>
+							</div>
+						</div>
+						<a href="#cabinet" class="popup__btn js_popup-link">У меня уже есть аккаунт</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_thanks">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Спасибо за обращение</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__text">Наш менеджер скоро свяжется с вами для уточнения деталей</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_video">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__close popup__close_video"></div>
+				<div class="popup__video _video">
+					<video autoplay pip="false" muted="" preload="auto" controls class="">
+						<source src="videos/about-video.mp4" type="video/mp4">
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_size-table">
+		<div class="popup__content">
+			<div class="popup__body js_tabs">
+				<div class="popup__top">
+					<div class="popup__title">Таблицы размеров</div>
+					<div class="popup__close"></div>
+					<div class="popup__text">Если Вам непросто определиться с размером или подходящего варианта нет в таблицах, вам всегда рады помочь консультанты "Бригадир Спецодежда".</div>
+				</div>
+				<div class="popup__nav">
+					<div class="popup__nav-row float-line">
+						<div class="popup__nav-item  js_tabs-item  _active"><span class=" float-line__item">Размерные признаки типовых фигур</span></div>
+						<div class="popup__nav-item  js_tabs-item"><span class=" float-line__item">Для мужчин</span></div>
+						<div class="popup__nav-item  js_tabs-item"><span class=" float-line__item">Для женщин</span></div>
+
+					</div>
+					<div class="popup__nav-row float-line">
+						<div class="popup__nav-item js_tabs-item"><span class="float-line__item">Обувь мужская</span></div>
+						<div class="popup__nav-item js_tabs-item"><span class="float-line__item">Обувь женская</span></div>
+
+					</div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__block">
+
+						<div class="popup__block-tables form js_tabs-block  _active">
+							<div class="size-table">
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">У мужчин</caption>
+										<tbody>
+											<tr>
+												<th class="size-table__headline">Размер, см</th>
+												<td class="size-table__item">88-92</td>
+												<td class="size-table__item">96-100</td>
+												<td class="size-table__item">104-108</td>
+												<td class="size-table__item">112-116</td>
+												<td class="size-table__item">120-124</td>
+											</tr>
+											<tr>
+												<th class="size-table__headline">Размер, см</th>
+												<td class="size-table__item">88-92</td>
+												<td class="size-table__item">96-100</td>
+												<td class="size-table__item">104-108</td>
+												<td class="size-table__item">112-116</td>
+												<td class="size-table__item">120-124</td>
+											</tr>
+											<tr>
+												<th class="size-table__headline">Обхват талии, см</th>
+												<td class="size-table__item">77-84</td>
+												<td class="size-table__item">85-92</td>
+												<td class="size-table__item">93-100</td>
+												<td class="size-table__item">101-108</td>
+												<td class="size-table__item">109-116</td>
+											</tr>
+											<tr>
+												<th class="size-table__headline">Обхват бедёр, см</th>
+												<td class="size-table__item">89-96</td>
+												<td class="size-table__item">97-104</td>
+												<td class="size-table__item">105-112</td>
+												<td class="size-table__item">113-120</td>
+												<td class="size-table__item">121-128</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">У женщин</caption>
+										<tbody>
+											<tr>
+												<th class="size-table__headline">Размер, см</th>
+												<td class="size-table__item">88-92</td>
+												<td class="size-table__item">96-100</td>
+												<td class="size-table__item">104-108</td>
+												<td class="size-table__item">112-116</td>
+												<td class="size-table__item">120-124</td>
+											</tr>
+											<tr>
+												<th class="size-table__headline">Обхват груди, см</th>
+												<td class="size-table__item">87-94</td>
+												<td class="size-table__item">95-102</td>
+												<td class="size-table__item">103-110</td>
+												<td class="size-table__item">111-118</td>
+												<td class="size-table__item">119-126</td>
+											</tr>
+											<tr>
+												<th class="size-table__headline">Обхват талии, см</th>
+												<td class="size-table__item">77-84</td>
+												<td class="size-table__item">85-92</td>
+												<td class="size-table__item">93-100</td>
+												<td class="size-table__item">101-108</td>
+												<td class="size-table__item">109-116</td>
+											</tr>
+											<tr>
+												<th class="size-table__headline">Обхват бедёр, см</th>
+												<td class="size-table__item">89-96</td>
+												<td class="size-table__item">97-104</td>
+												<td class="size-table__item">105-112</td>
+												<td class="size-table__item">113-120</td>
+												<td class="size-table__item">121-128</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="popup__block-tables js_tabs-block">
+							<div class="size-table">
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">Рост</caption>
+										<thead>
+											<tr>
+												<th class="size-table__headline">Условное обозначение роста</th>
+												<th class="size-table__headline">Типовой рост, см (по ГОСТ 27575-87)</th>
+												<th class="size-table__headline">Фактический рост, см</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="size-table__item">1-2</td>
+												<td class="size-table__item">158-164</td>
+												<td class="size-table__item">155-167</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">3-4</td>
+												<td class="size-table__item">170-176</td>
+												<td class="size-table__item">168-179</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">5-6</td>
+												<td class="size-table__item">182-188</td>
+												<td class="size-table__item">180-191</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">Размер</caption>
+										<thead>
+											<tr>
+												<th class="size-table__headline">Условное обозначение размера</th>
+												<th class="size-table__headline">Типовой обхват груди, см (по ГОСТ 27575-87)</th>
+												<th class="size-table__headline">Фактический обхват груди, см</th>
+												<th class="size-table__headline">Фактический обхват талии, см</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="size-table__item">44-46</td>
+												<td class="size-table__item">88-92</td>
+												<td class="size-table__item">87-94</td>
+												<td class="size-table__item">74-81</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">48-50</td>
+												<td class="size-table__item">96-100</td>
+												<td class="size-table__item">95-102</td>
+												<td class="size-table__item">82-89</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">52-54</td>
+												<td class="size-table__item">104-108</td>
+												<td class="size-table__item">103-110</td>
+												<td class="size-table__item">90-97</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">56-58</td>
+												<td class="size-table__item">112-116</td>
+												<td class="size-table__item">111-118</td>
+												<td class="size-table__item">98-105</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">60-62</td>
+												<td class="size-table__item">120-124</td>
+												<td class="size-table__item">119-126</td>
+												<td class="size-table__item">106-113</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="popup__block-tables js_tabs-block">
+							<div class="size-table">
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">Рост</caption>
+										<thead>
+											<tr>
+												<th class="size-table__headline">Условное обозначение роста</th>
+												<th class="size-table__headline">Типовой рост, см (по ГОСТ 27575-87)</th>
+												<th class="size-table__headline">Фактический рост, см</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="size-table__item">1-2</td>
+												<td class="size-table__item">146-152</td>
+												<td class="size-table__item">143-154</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">3-4</td>
+												<td class="size-table__item">158-164</td>
+												<td class="size-table__item">155-167</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">5-6</td>
+												<td class="size-table__item">170-176</td>
+												<td class="size-table__item">168-179</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">7-8</td>
+												<td class="size-table__item">182-188</td>
+												<td class="size-table__item">180-191</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">Размер</caption>
+										<thead>
+											<tr>
+												<th class="size-table__headline">Условное обозначение размера</th>
+												<th class="size-table__headline">Типовой обхват груди, см (по ГОСТ 27575-87)</th>
+												<th class="size-table__headline">Фактический обхват груди, см</th>
+												<th class="size-table__headline">Фактический обхват талии, см</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="size-table__item">44-46</td>
+												<td class="size-table__item">88-92</td>
+												<td class="size-table__item">87-94</td>
+												<td class="size-table__item">96-103</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">48-50</td>
+												<td class="size-table__item">96-100</td>
+												<td class="size-table__item">95-102</td>
+												<td class="size-table__item">104-111</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">52-54</td>
+												<td class="size-table__item">104-108</td>
+												<td class="size-table__item">103-110</td>
+												<td class="size-table__item">112-119</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">56-58</td>
+												<td class="size-table__item">112-116</td>
+												<td class="size-table__item">111-118</td>
+												<td class="size-table__item">116-127</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">60-62</td>
+												<td class="size-table__item">120-124</td>
+												<td class="size-table__item">119-126</td>
+												<td class="size-table__item">128-134</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="popup__block-tables js_tabs-block">
+							<div class="size-table">
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">Рост</caption>
+										<thead>
+											<tr>
+												<th class="size-table__headline">Российский размер</th>
+												<th class="size-table__headline">Длина стопы</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="size-table__item">34.5</td>
+												<td class="size-table__item">22</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">35</td>
+												<td class="size-table__item">22.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">35.5</td>
+												<td class="size-table__item">23</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">36</td>
+												<td class="size-table__item">23.3</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">36.5</td>
+												<td class="size-table__item">23.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">37</td>
+												<td class="size-table__item">23.6</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">37.5</td>
+												<td class="size-table__item">24</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">38</td>
+												<td class="size-table__item">24.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">39</td>
+												<td class="size-table__item">25</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">40</td>
+												<td class="size-table__item">25.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">40.5</td>
+												<td class="size-table__item">26</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">41</td>
+												<td class="size-table__item">26.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">42</td>
+												<td class="size-table__item">27</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">43</td>
+												<td class="size-table__item">27.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">43.5</td>
+												<td class="size-table__item">28</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">44</td>
+												<td class="size-table__item">28.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">45</td>
+												<td class="size-table__item">29</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">46</td>
+												<td class="size-table__item">29.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">46.5</td>
+												<td class="size-table__item">30</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">47</td>
+												<td class="size-table__item">30.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">47.5</td>
+												<td class="size-table__item">31</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">48</td>
+												<td class="size-table__item">31.5 </td>
+											</tr>
+											<tr>
+												<td class="size-table__item">48.5</td>
+												<td class="size-table__item">32</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">49</td>
+												<td class="size-table__item">32.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">50</td>
+												<td class="size-table__item">33</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">51</td>
+												<td class="size-table__item">33.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">52</td>
+												<td class="size-table__item">34</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">53</td>
+												<td class="size-table__item">34.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">53.5</td>
+												<td class="size-table__item">35</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">54</td>
+												<td class="size-table__item">35.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">55</td>
+												<td class="size-table__item">36</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="popup__block-tables js_tabs-block">
+							<div class="size-table">
+								<div class="size-table__box">
+									<table class="size-table__table">
+										<caption class="size-table__title">Рост</caption>
+										<thead>
+											<tr>
+												<th class="size-table__headline">Российский размер</th>
+												<th class="size-table__headline">Длина стопы</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="size-table__item">33 </td>
+												<td class="size-table__item">20.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">34</td>
+												<td class="size-table__item">21</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">34.5</td>
+												<td class="size-table__item">21.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">35</td>
+												<td class="size-table__item">22</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">35.5</td>
+												<td class="size-table__item">22.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">36</td>
+												<td class="size-table__item">23</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">37</td>
+												<td class="size-table__item">23.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">37.5</td>
+												<td class="size-table__item">24</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">38.5</td>
+												<td class="size-table__item">24.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">39</td>
+												<td class="size-table__item">25</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">40</td>
+												<td class="size-table__item">25.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">40.5</td>
+												<td class="size-table__item">26</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">41</td>
+												<td class="size-table__item">26.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">42</td>
+												<td class="size-table__item">27</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">43</td>
+												<td class="size-table__item">27.5</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">43.5</td>
+												<td class="size-table__item">28</td>
+											</tr>
+											<tr>
+												<td class="size-table__item">44</td>
+												<td class="size-table__item">28.5</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_mobile-filter">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Фильтры</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center mobile-filter">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_getConsultation">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__top">
+					<div class="popup__title">Получить консультацию</div>
+					<div class="popup__close"></div>
+				</div>
+				<div class="popup__center">
+					<div class="popup__text">Наш специалист проконсультирует вас и поможет определиться с выбором спецодежды под ваши нужды.</div>
+					<div class="popup__form">
+						<form action="#" method="get" class="form">
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите Ваше имя" data-value="Ваше имя" class="form__input">
+							</div>
+							<div class="form__line">
+								<input required autocomplete="off" type="text" name="form[]" data-error="Введите номер телефона" data-value="Ваш номер телефона" class="form__input js_phone">
+							</div>
+							<div class="form__line">
+								<textarea autocomplete="off" name="form[]" data-value="Комментарий" data-error="Ошибка" class="form__txta"></textarea>
+							</div>
+							<div class="popup__btns">
+								<button type="submit" class="form__button green-btn">Заказать</button>
+								<div class="form__checkbox">
+									<label class="checkbox">
+										<input data-error="Ошибка" class="checkbox__input" required type="checkbox" checked value="1" name="form[]">
+										<span class="checkbox__text"><span>Я даю свое согласие на <a class="js_popup-link" href="#consent">обработку персональных данных</a></span></span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/vendors.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>

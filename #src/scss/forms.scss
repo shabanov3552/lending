@@ -1,0 +1,427 @@
+// #region <FORM ()>====================================================================================================
+
+.form {
+	// .form__row
+
+	&__row {
+		display: flex;
+	}
+
+	// .form__col
+
+	&__col {
+		display: flex;
+		flex-direction: column;
+	}
+
+	// .form__line
+
+	&__line {
+		position: relative;
+		margin: 0px 0px 30px 0px;
+
+		&._focus {
+			.form__input-placeholder {
+				font-size: 12px;
+				top: -20px;
+				color: #fff;
+			}
+
+			.form__input-clear {
+				opacity: 1;
+			}
+		}
+	}
+
+	// .form__txta
+
+	&__txta {
+		border-radius: 5px;
+		background-color: #fff;
+		padding: 29px 35px 19px 14px;
+		color: #000000;
+		font-size: 18px;
+		line-height: 22px;
+		width: 100%;
+		resize: vertical;
+	}
+
+	// .form__input
+
+	&__input {
+		border-radius: 5px;
+		background-color: #fff;
+		color: #000000;
+		font-size: 18px;
+		line-height: 22px;
+		width: 100%;
+		height: 48px;
+		padding: 13px 16px;
+		padding-right: 40px;
+	}
+
+	// .form__input-placeholder
+
+	&__input-placeholder {
+		pointer-events: none;
+		position: absolute;
+		top: 13px;
+		left: 14px;
+		color: rgba(0, 0, 0, 0.604535);
+		font-size: 18px;
+		line-height: 22px;
+		transition: all 0.3s ease 0s;
+	}
+
+	// .form__input-clear
+
+	&__input-clear {
+		opacity: 0;
+		cursor: pointer;
+		position: absolute;
+		right: 16px;
+		top: 17px;
+		transition: all 0.3s ease 0s;
+	}
+
+	// .form__error
+
+	&__error {}
+
+	// .form__button
+
+	&__button {}
+}
+
+// #endregion </FORM>====================================================================================================
+
+// #region <BUTTONS (a.btn+tab)>====================================================================================================
+.button {
+	display: inline-flex;
+	padding: 0px 0px;
+
+	@media (any-hover: hover) {
+		&:hover {}
+	}
+
+	&._fw {
+		width: 100%;
+	}
+}
+
+// #endregion </BUTTONS>====================================================================================================
+
+// #region <INPUT (inp+tab)>====================================================================================================
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+textarea {
+	min-height: 87px;
+	padding-top: 13px;
+	resize: vertical;
+}
+
+.parsley-error {
+	border: 2px solid #cb2424;
+}
+
+.checkbox.parsley-error {
+	border: none;
+
+	.checkbox__text:before {
+		border: 2px solid #cb2424;
+	}
+
+	+.parsley-errors-list {
+		display: none;
+	}
+}
+
+// #endregion </INPUT>====================================================================================================
+
+// #region <CHECK (chk+tab)>====================================================================================================
+.checkbox {
+	position: relative;
+
+	// .checkbox__input
+	&__input {
+		position: absolute;
+		width: 0;
+		height: 0;
+		opacity: 0;
+		visibility: hidden;
+
+		&:checked+.checkbox__text:before {
+			background: url("../img/svg/check.svg") center no-repeat;
+		}
+	}
+
+	// .checkbox__text
+	&__text {
+		display: inline-flex;
+		align-items: center;
+		position: relative;
+		font-size: 12px;
+		color: rgba(255, 255, 255, 0.5);
+		cursor: pointer;
+		font-weight: normal;
+		line-height: 16px;
+		letter-spacing: normal;
+
+		&:before {
+			content: "";
+			align-self: flex-start;
+			margin: 0px 14px 0px 0px;
+			flex: 0 0 16px;
+			left: 0;
+			top: 0;
+			width: 16px;
+			height: 16px;
+			border-radius: 2px;
+			background: #fff;
+			border: 1px solid #a7a9ac;
+		}
+	}
+
+	a {
+		color: rgba(255, 255, 255, 0.5);
+		text-decoration: underline;
+
+		@media (min-width: 992px) {
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	&._error {
+		.checkbox__text {
+			color: #ee1212;
+
+			&:before {
+				border: 1px solid #ee1212;
+			}
+		}
+	}
+}
+
+// #endregion </CHECK>====================================================================================================
+
+// #region <OPTIONS (opt+tab)>====================================================================================================
+.options {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	// .options__item
+	&__item {
+		position: relative;
+		cursor: pointer;
+
+		&._error {}
+	}
+
+	// .options__input
+	&__input {
+		position: absolute;
+		width: 0;
+		height: 0;
+		opacity: 0;
+		left: 0;
+		top: 0;
+		visibility: hidden;
+
+		&:checked+.options__text:before {}
+
+		&:checked+.options__text:after {
+			transform: scale(1);
+		}
+	}
+
+	// .options__text
+	&__text {
+		display: inline-flex;
+		align-items: center;
+		position: relative;
+		font-size: 16px;
+		color: #ffffff;
+		letter-spacing: -0.3px;
+		line-height: calc(20 / 16);
+
+		&:before {
+			content: "";
+			align-self: flex-start;
+			margin: 0px 14px 0px 0px;
+			flex: 0 0 20px;
+			left: 0;
+			top: 0;
+			border-radius: 50%;
+			width: 20px;
+			height: 18px;
+			background: #fff;
+			border: 1px solid #a7a9ac;
+		}
+
+		&:after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			transform: scale(0);
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: #77243a;
+			position: absolute;
+			left: 5px;
+			top: 4px;
+		}
+	}
+}
+
+// #endregion </OPTIONS>====================================================================================================
+
+// #region <RATING>====================================================================================================
+.rating {
+	display: flex;
+	align-items: flex-end;
+	font-size: 40px;
+	line-height: 0.75;
+	transition: opacity 0.3s ease 0s;
+}
+
+.rating.rating_sending {
+	opacity: 0.2;
+}
+
+.rating.rating_set .rating__active,
+.rating.rating_set .rating__item {
+	cursor: pointer;
+}
+
+.rating__body {
+	position: relative;
+}
+
+.rating__body::before {
+	content: "★★★★★";
+	display: block;
+}
+
+.rating__active {
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.rating__active::before {
+	content: "★★★★★";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: #ffd300;
+}
+
+.rating__items {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.rating__item {
+	flex: 0 0 20%;
+	height: 100%;
+	opacity: 0;
+}
+
+.rating__value {
+	font-size: 50%;
+	line-height: 1;
+	padding: 0px 0px 0px 10px;
+}
+
+// #endregion </RATING>====================================================================================================
+
+// #region <QUANTITY>====================================================================================================
+.quantity {
+	width: 127px;
+	height: 48px;
+	display: flex;
+	border-radius: 5px;
+	overflow: hidden;
+
+	// .quantity__button
+	&__button {
+		flex: 0 0 30px;
+		position: relative;
+		cursor: pointer;
+		background-color: rgba(255, 255, 255, 0.104868);
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			top: 45%;
+			left: 22%;
+			transition: all 0.3s ease 0s;
+			margin: 0px 0px 0px 0px;
+			background-color: rgba(255, 255, 255, 0.343892);
+			width: 17px;
+			height: 3px;
+		}
+
+		@media (min-width: $md3+px) {
+			&:hover {
+
+				&::before,
+				&::after {
+					background-color: #fff;
+				}
+			}
+		}
+
+		// .quantity__button_plus
+		&_plus {
+			&::before {
+				transform: rotate(-90deg);
+			}
+		}
+
+		// .quantity__button_minus
+		&_minus {}
+	}
+
+	// .quantity__input
+	&__input {
+		flex: 1 1 auto;
+
+		input {
+			background-color: rgba(255, 255, 255, 0.104868);
+			height: 100%;
+			color: #fff;
+			font-size: 18px;
+			line-height: 22px;
+			width: 100%;
+			text-align: center;
+			border-radius: 0px;
+		}
+	}
+}
+
+// #endregion </QUANTITY>====================================================================================================

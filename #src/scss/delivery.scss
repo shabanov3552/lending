@@ -1,0 +1,108 @@
+.del {
+	@media (max-width: $md5+px) {
+		padding: 0px 10px;
+	}
+	// .del__title
+
+	&__title {
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 44px;
+		margin: 0px 0px 30px 0px;
+		@media (max-width: $md4+px) {
+			font-size: 24px;
+			line-height: 28px;
+		}
+	}
+
+	// .del__subtitle
+
+	&__subtitle {
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 37px;
+		margin: 0px 0px 30px 0px;
+		@media (max-width: $md4+px) {
+			font-size: 20px;
+			line-height: 22px;
+			margin: 0px 0px 20px 0px;
+		}
+	}
+
+	// .del__row
+
+	&__row {
+		margin: 0px 0px 35px 0px;
+		display: flex;
+		@media (max-width: $md4+px) {
+			flex-direction: column;
+			margin: 0px 0px 30px 0px;
+		}
+	}
+
+	// .del__name
+
+	&__name {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+		flex: 0 0 320px;
+		margin: 0px 50px 0px 0px;
+		@media (max-width: $md4+px) {
+			flex: none;
+			margin: 0px 0px 10px 0px;
+			font-size: 18px;
+			line-height: 22px;
+		}
+	}
+
+	// .del__text
+
+	&__text {
+		font-size: 16px;
+		line-height: 24px;
+		max-width: 690px;
+		@media (max-width: $md4+px) {
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+
+	// .del__desc
+
+	&__desc {
+	}
+
+	// .del__link
+
+	&__link {
+		color: #fff;
+		border-bottom: 1px dashed #fff;
+		display: inline-block;
+		margin: 13px 0px 0px 0px;
+	}
+
+	// .del__map
+
+	&__map {
+		margin: 0px 0px 0px 370px;
+		@media (max-width: $md1+px) {
+			margin: 0px 0px 50px 0px;
+		}
+		.del__map-wrapper {
+			height: 440px;
+		}
+		.del__link {
+			margin: 0px 0px 20px 0px;
+			&::before {
+				content: "Открыть карту";
+				color: #fff;
+			}
+			&._active {
+				&::before {
+					content: "Скрыть карту";
+				}
+			}
+		}
+	}
+}

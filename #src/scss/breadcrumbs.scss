@@ -1,0 +1,44 @@
+.breadcrumbs {
+	position: relative;
+	z-index: 1;
+	transition: all 0.3s ease 0s;
+	// .breadcrumbs__list
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	// .breadcrumbs__li
+
+	&__li {
+		margin: 0px 20px 5px 0px;
+	}
+
+	// .breadcrumbs__link
+
+	&__link {
+		color: #fff;
+		font-size: 16px;
+		line-height: 24px;
+
+		// .breadcrumbs__link_back-svg
+
+		&_back-svg {
+			width: 18px;
+			height: 13px;
+			margin: 0px 20px 0px 0px;
+			use {
+				fill: #a5ff14;
+			}
+		}
+	}
+
+	// .breadcrumbs__item
+
+	&__item {
+		color: #fff;
+		font-size: 16px;
+		line-height: 24px;
+	}
+}

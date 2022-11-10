@@ -1,0 +1,92 @@
+.faq {
+	padding-top: 15px;
+	@media (max-width: $md4+px) {
+		padding: 15px 0px 0px 0px;
+	}
+	// .faq__title
+
+	&__title {
+		margin: 0px 0px 50px 0px;
+		@media (max-width: $md4+px) {
+			padding: 0px 0px 0px 20px;
+			margin: 0px 0px 30px 0px;
+		}
+	}
+
+	// .faq__spollers
+
+	&__spollers {
+	}
+
+	// .faq__block
+
+	&__block {
+		border: 1px solid #858585;
+		padding: 0px 40px 0px 60px;
+		cursor: pointer;
+		@media (max-width: $md4+px) {
+			padding: 0px 20px;
+		}
+	}
+
+	// .faq__spoller
+
+	&__spoller {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&._active {
+			.faq__spoller-svg {
+				transform: rotate(45deg);
+			}
+		}
+		@media (min-width: $md4+px) {
+			&:hover {
+				.faq__spoller-icon {
+					background: rgba(255, 255, 255, 0.111861);
+				}
+			}
+		}
+	}
+
+	// .faq__subtitle
+
+	&__subtitle {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+		padding: 30px 0px;
+	}
+
+	// .faq__spoller-icon
+
+	&__spoller-icon {
+		flex: 0 0 63px;
+		height: 63px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: all 0.3s ease 0s;
+		background: transparent;
+		border-radius: 10px;
+	}
+
+	// .faq__spoller-svg
+
+	&__spoller-svg {
+		transition: all 0.3s ease 0s;
+		width: 35px;
+		height: 35px;
+		use {
+			fill: #d8d8d8;
+		}
+	}
+
+	// .faq__text
+
+	&__text {
+		margin: 0px 0px 20px 0px;
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
