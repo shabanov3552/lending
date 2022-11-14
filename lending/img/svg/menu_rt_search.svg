@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Combined Shape</title>
-    <desc>Created with Sketch.</desc>
-    <g id="1366" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="1920/-шапка" transform="translate(-1534.000000, -71.000000)" fill="#324769">
-            <path d="M1545,71 C1551.07513,71 1556,75.9248678 1556,82 C1556,84.2395267 1555.33074,86.322739 1554.18131,88.0605452 L1560.44975,94.3284271 L1558.32843,96.4497475 L1552.19767,90.3185 C1550.26853,91.9891694 1547.75231,93 1545,93 C1538.92487,93 1534,88.0751322 1534,82 C1534,75.9248678 1538.92487,71 1545,71 Z M1545,74 C1540.58172,74 1537,77.581722 1537,82 C1537,86.418278 1540.58172,90 1545,90 C1549.41828,90 1553,86.418278 1553,82 C1553,77.581722 1549.41828,74 1545,74 Z" id="Combined-Shape"></path>
-        </g>
-    </g>
-</svg>
+<svg width="27" height="26" xmlns="http://www.w3.org/2000/svg"><path d="M11 0c6.075 0 11 4.925 11 11 0 2.24-.67 4.323-1.819 6.06l6.269 6.268-2.122 2.122-6.13-6.131A10.957 10.957 0 0111 22C4.925 22 0 17.075 0 11S4.925 0 11 0zm0 3a8 8 0 100 16 8 8 0 000-16z" fill="#324769" fill-rule="evenodd"/></svg>

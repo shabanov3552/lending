@@ -589,7 +589,12 @@
 
 	// .works__slider
 
-	&__slider {}
+	&__slider {
+		@media (min-width:1921px) {
+			padding: 15px 0;
+			perspective: 1250px;
+		}
+	}
 
 	// .works__wrapper
 
@@ -673,6 +678,7 @@
 	&__advantages-row {
 		display: flex;
 		flex-wrap: wrap;
+		margin-bottom: 20px;
 	}
 
 	// .works__adv-item
@@ -727,8 +733,12 @@
 	padding-bottom: 27%;
 	position: relative;
 
-	@media (max-width: 768px) {
+	@media (max-width: 1280px) {
 		padding-bottom: 35%;
+
+	}
+
+	@media (max-width: 768px) {
 		margin-bottom: 20px;
 	}
 
@@ -839,11 +849,7 @@
 	&__map {
 		position: absolute;
 		bottom: 0;
-		left: -120px;
-
-		@media (max-width: 768px) {
-			left: -35px;
-		}
+		width: 100%;
 
 		>img {
 			width: 100%;
@@ -1422,6 +1428,10 @@
 	&__text {
 		font-size: 18px;
 		line-height: 26px;
+
+		span {
+			background: #242424;
+		}
 	}
 }
 

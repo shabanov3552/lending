@@ -1,5 +1,1 @@
-<svg width="97" height="137" viewBox="0 0 97 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M91.5 5.5L6.5 131.5" stroke="white" stroke-linecap="square"/>
-<rect width="8" height="8" transform="matrix(-1 0 0 1 97 0)" fill="white"/>
-<rect width="8" height="8" transform="matrix(-1 0 0 1 8 129)" fill="white"/>
-</svg>
+<svg width="97" height="137" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91.5 5.5l-85 126" stroke="#fff" stroke-linecap="square"/><path fill="#fff" d="M97 0h-8v8h8zM8 129H0v8h8z"/></svg>

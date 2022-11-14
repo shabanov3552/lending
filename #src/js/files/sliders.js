@@ -173,7 +173,7 @@ if (document.querySelector('.works__slider')) {
 		slidesPerView: "auto",
 		coverflowEffect: {
 			rotate: 50,
-			stretch: 00,
+			stretch: 0,
 			depth: 130,
 			modifier: 1,
 			slideShadows: true,
@@ -189,31 +189,37 @@ if (document.querySelector('.works__slider')) {
 			},
 			545: {
 				slidesPerView: "auto",
-
 			},
+			1920: {
+				slidesPerView: 3,
+			}
+		},
+		pagination: {
+			type: 'fraction',
+			el: '.swiper-pagination.works__slider-counter'
 		},
 		on: {
-			init: function () {
-				let currentSlide = this.activeIndex + 1;
-				document.querySelector('.works__slider-counter').innerHTML = `
-				<span class="counter__current">
-					${currentSlide}
-				</span> 
-				/ 
-				<span class="counter__total">
-					${this.slides.length}
-				</span>`;
-			},
+			// init: function () {
+			// 	let currentSlide = this.activeIndex + 1;
+			// 	document.querySelector('.works__slider-counter').innerHTML = `
+			// 	<span class="counter__current">
+			// 		${currentSlide}
+			// 	</span> 
+			// 	/ 
+			// 	<span class="counter__total">
+			// 		${this.slides.length}
+			// 	</span>`;
+			// },
 			slideChange: function () {
 				let currentSlide = this.activeIndex + 1;
-				document.querySelector('.works__slider-counter').innerHTML = `
-				<span class="counter__current">
-					${currentSlide}
-				</span> 
-				/ 
-				<span class="counter__total">
-					${this.slides.length}
-				</span>`;
+				// document.querySelector('.works__slider-counter').innerHTML = `
+				// <span class="counter__current">
+				// 	${currentSlide}
+				// </span> 
+				// / 
+				// <span class="counter__total">
+				// 	${this.slides.length}
+				// </span>`;
 				if (this.activeIndex % 3 === 0) {
 					worksSliderThumbs.slideTo(this.activeIndex / 3);
 
