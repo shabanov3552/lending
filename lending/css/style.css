@@ -6992,8 +6992,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .works__slider {
     padding: 15px 0;
-    -webkit-perspective: 1250px;
-            perspective: 1250px;
+    -webkit-perspective: 1260px;
+            perspective: 1260px;
   }
 }
 
